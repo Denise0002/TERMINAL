@@ -1,0 +1,131 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff; /* Fondo color azul claro */
+}
+
+.navbar {
+    background-color: yellow;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.navbar-logo img {
+    height: 40px;
+}
+
+.navbar input[type="text"] {
+    width: 50%;
+    padding: 8px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    color: #333;
+}
+
+.navbar-links a {
+    margin-left: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s ease;
+}
+
+.navbar-links a:hover {
+    color: #ffd700;
+}
+
+.banner {
+    text-align: center;
+    padding: 50px 20px;
+    background: linear-gradient(135deg, orange 0%, yellow 100%);
+    margin-top: 20px;
+    border-top: 5px solid #ff6f61;
+    border-bottom: 5px solid #ff6f61;
+    color: white;
+}
+
+.banner h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.banner h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.banner p {
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.banner img {
+    margin-top: 20px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+    flex-wrap: wrap;
+}
+
+.feature-item {
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 20px;
+    width: 30%;
+    text-align: center;
+    margin: 10px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
+}
+
+.feature-item h3 {
+    color: #ff6f61;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.feature-item p {
+    color: #333;
+    font-size: 14px;
+}
+
+.feature-item:nth-child(odd) {
+    background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
+}
+
+.feature-item:nth-child(even) {
+    background: linear-gradient(135deg, #a1c4fd 0%, #c2e9fb 100%);
+}
+
+/* Estilo de los botones */
+.btn {
+    background-color: #ff6f61;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+    outline: none;
+}
+
+.btn:hover {
+    background-color: #ff4f4f;
+}
